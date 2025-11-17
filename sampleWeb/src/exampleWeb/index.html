@@ -49,20 +49,41 @@
         <div class="col-md-5">
           <label class="form-label">7. Sex:</label>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="Sex" id="sexMale" targetDbField="Gender">
+            <input class="form-check-input" type="radio" name="Sex" id="sexMale" targetDbField="Gender" value="M">
             <label class="form-check-label" for="sexMale">
               Male
             </label>
           </div>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="Ex" id="sexFemale" targetDbField="Gender">
+            <input class="form-check-input" type="radio" name="Sex" id="sexFemale" targetDbField="Gender" value="F">
             <label class="form-check-label" for="sexFemale">
               Female
             </label>
           </div>
         </div>
+        <div class="col-md-3">
+          <label class="form-label">8. Pregnancy:</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Pregnancy" id="pregYes" targetDbField="Pregnancy" value="Y">
+            <label class="form-check-label" for="pregYes">
+              Yes
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Pregnancy" id="pregNo" targetDbField="Pregnancy" value="N">
+            <label class="form-check-label" for="pregNo">
+              No
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="Pregnancy" id="pregUnk" targetDbField="Pregnancy" value="U">
+            <label class="form-check-label" for="pregUnk">
+              Unknown
+            </label>
+          </div>
+        </div>
         <div class="col-md-7">
-          <label class="form-check-label">8. Provide your 10-digit DODID number located on the back of your CAC.</label>
+          <label class="form-check-label">9. Provide your 10-digit DODID number located on the back of your CAC.</label><br/>
           <label class="form-contorl">1234567890</label>
         </div>
       </form>

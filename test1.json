@@ -1,0 +1,51 @@
+[
+  {
+    "callingState": "Today",
+    "transitionValue": "2025-11-05",
+    "targetState": "DoB",
+    "expectedControlEnabledState": true,
+    "pass": true
+  },
+  {
+    "callingState": "MiddleInitial",
+    "transitionValue": "a",
+    "targetState": "Today",
+    "expectedControlEnabledState": true,
+    "pass": true
+  },
+  {
+    "callingState": "LastName",
+    "transitionValue": "a",
+    "targetState": "FirstName",
+    "expectedControlEnabledState": true,
+    "pass": true
+  },
+  {
+    "callingState": "FirstName",
+    "transitionValue": "a",
+    "targetState": "MiddleInitial",
+    "expectedControlEnabledState": true,
+    "pass": true
+  },
+  {
+    "callingState": "DoB",
+    "transitionValue": "2025-11-05",
+    "targetState": "Age",
+    "expectedControlEnabledState": true,
+    "pass": true
+  },
+  {
+    "callingState": "Age",
+    "transitionValue": "2",
+    "targetState": "Gender",
+    "expectedControlEnabledState": true,
+    "pass": true
+  },
+  {
+    "callingState": "",
+    "transitionValue": "$",
+    "targetState": "LastName",
+    "expectedControlEnabledState": true,
+    "pass": true
+  }
+]
