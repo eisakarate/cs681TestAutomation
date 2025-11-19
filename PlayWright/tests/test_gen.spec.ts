@@ -29,7 +29,7 @@ test.afterAll(async() =>{
 test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_Y', async({page}) => {
 	let testName = '_#_A_A_A_2025-11-05_2025-11-05_d_M_Y';
 	let outputFSM: characterization_0_EquivalenceEntry[] = [];
-	await page.goto('file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html'); 
+	await page.goto('F:/GIT/Me/cs681TestAutomation/sampleWeb/src/exampleWeb/index.html'); 
 	await registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);
 	//Skipping Question LastName - transition value specified was: #.
 	//Checking Question FirstName - transition value specified was: A.
@@ -75,7 +75,7 @@ test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_Y', async({page}) => {
 test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_Y_N', async({page}) => {
 	let testName = '_#_A_A_A_2025-11-05_2025-11-05_d_M_Y_N';
 	let outputFSM: characterization_0_EquivalenceEntry[] = [];
-	await page.goto('file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html'); 
+	await page.goto('F:/GIT/Me/cs681TestAutomation/sampleWeb/src/exampleWeb/index.html'); 
 	await registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);
 	//Skipping Question LastName - transition value specified was: #.
 	//Checking Question FirstName - transition value specified was: A.
@@ -121,7 +121,7 @@ test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_Y_N', async({page}) => {
 test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_Y_N_U', async({page}) => {
 	let testName = '_#_A_A_A_2025-11-05_2025-11-05_d_M_Y_N_U';
 	let outputFSM: characterization_0_EquivalenceEntry[] = [];
-	await page.goto('file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html'); 
+	await page.goto('F:/GIT/Me/cs681TestAutomation/sampleWeb/src/exampleWeb/index.html'); 
 	await registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);
 	//Skipping Question LastName - transition value specified was: #.
 	//Checking Question FirstName - transition value specified was: A.
@@ -167,7 +167,7 @@ test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_Y_N_U', async({page}) => {
 test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y', async({page}) => {
 	let testName = '_#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y';
 	let outputFSM: characterization_0_EquivalenceEntry[] = [];
-	await page.goto('file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html'); 
+	await page.goto('F:/GIT/Me/cs681TestAutomation/sampleWeb/src/exampleWeb/index.html'); 
 	await registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);
 	//Skipping Question LastName - transition value specified was: #.
 	//Checking Question FirstName - transition value specified was: A.
@@ -213,7 +213,7 @@ test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y', async({page}) => {
 test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y_N', async({page}) => {
 	let testName = '_#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y_N';
 	let outputFSM: characterization_0_EquivalenceEntry[] = [];
-	await page.goto('file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html'); 
+	await page.goto('F:/GIT/Me/cs681TestAutomation/sampleWeb/src/exampleWeb/index.html'); 
 	await registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);
 	//Skipping Question LastName - transition value specified was: #.
 	//Checking Question FirstName - transition value specified was: A.
@@ -259,7 +259,7 @@ test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y_N', async({page}) => {
 test('test__#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y_N_U', async({page}) => {
 	let testName = '_#_A_A_A_2025-11-05_2025-11-05_d_M_F_Y_N_U';
 	let outputFSM: characterization_0_EquivalenceEntry[] = [];
-	await page.goto('file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html'); 
+	await page.goto('F:/GIT/Me/cs681TestAutomation/sampleWeb/src/exampleWeb/index.html'); 
 	await registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);
 	//Skipping Question LastName - transition value specified was: #.
 	//Checking Question FirstName - transition value specified was: A.

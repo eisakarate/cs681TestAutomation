@@ -97,12 +97,16 @@ function generateTestCaseCode(efsm: outputFSMEntry[], curOrdinal: number, curExp
             }
             else
             {
+                
+                //get current path
+                const currentPath = path.join(process.cwd(), "../../sampleWeb/src/exampleWeb/index.html").replaceAll("\\", "/")
+                
                 //nothing to add, write to array
                 testCode.push(
                     `test('test_${fsmInputWord}', async({page}) => {\r\n` +
                     `\tlet testName = \'${fsmInputWord}\';\r\n` + 
 	                '\tlet outputFSM: characterization_0_EquivalenceEntry[] = [];\r\n'+
-                    '\tawait page.goto(\'file:///F:/Git/Me/cs690TestAutomation-main/sampleWeb/src/exampleWeb/index.html\'); \r\n' +
+                    `\tawait page.goto(\'${currentPath}\'); \r\n` +
                     `\tawait registerStartingOperation(testName, 0, "!", "#", "LastName", outputFSM);\r\n` + 
                     testExpression + ' \r\n' +
                     `\tawait outputLog("test_${fsmInputWord}.json");\r\n` + 
@@ -359,4 +363,4 @@ const ssorted = specFSMCodeSets.sort((a,b) => {
 const jsonExpr = JSON.stringify(specFSMCodeSets);
 await fs.writeFile(path.join("../test-results/", "characterizationSet.json"),
     jsonExpr,
-     'utf8')
+     'utf8');
