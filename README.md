@@ -15,15 +15,22 @@ It is assumed that you have already configured VS Code to run unit tests.
 
 Please install node.js: https://nodejs.org/en/download
 
-## 3. Install PlayWright runtime
+## 3. Install Playwright runtime
 
 Please use the command below to install PlayWright runtime files:
 
 `$npm init playwright@1.17.131`
 
-## 2. Install PlayWright Test for VS Code
+## 3. Install Playwright Test for VS Code
 
-`Playwright Test for VSCode` is needed to to run the generated test cases.  To install, follow the instructions provided by Microsoft (https://playwright.dev/docs/getting-started-vscode)
+`Playwright Test for VSCode` is a helpful tool for unning Playwright test cases.  To install, follow the instructions provided by Microsoft (https://playwright.dev/docs/getting-started-vscode)
 
+## 4. Directory Structure Overview
 
-## 4. 
+- `PlayWright\` contains playwright related assets
+  - `Test.Framework` contains the prototype code for test generation and other key libraries
+  - `test` contains test cases
+    - `test_gen.spec.ts` the test case generated using the code-gen process discussed in the report
+- `node-mdoules\` node assets, you can replace it with what you need
+- `sampleWeb\` contains the sample website
+  - 
