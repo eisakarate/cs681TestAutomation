@@ -46,5 +46,5 @@ Please use the command below to install PlayWright runtime files:
 
 ## 5. Running Code Gen
 
-Navigate to `Playwright\` folder then execute `$ node generateTests.ts`.  
+Navigate to `Playwright\Test.Framework\` folder then execute `$ node generateTests.ts`.  
 
