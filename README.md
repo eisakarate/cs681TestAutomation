@@ -28,9 +28,22 @@ Please use the command below to install PlayWright runtime files:
 ## 4. Directory Structure Overview
 
 - `PlayWright\` contains playwright related assets
+  - `test-results` contains FSMs
+    - `characterizationSet.json` FSM for System Specfication
+    - `characterizationSetTestOutput.json` Test FSM
   - `Test.Framework` contains the prototype code for test generation and other key libraries
+    - `geneateTest.ts` contains the code-gen code to generate the test cases.
+    - `output.d.ts` a global script
+    - `prototype.tx` a library called by test cases. 
   - `test` contains test cases
     - `test_gen.spec.ts` the test case generated using the code-gen process discussed in the report
+    - `test-sandbox.spec.ts` a sandbox test case you can use to test ideas without it getting overridedn code-gen
 - `node-mdoules\` node assets, you can replace it with what you need
 - `sampleWeb\` contains the sample website
-  - 
+  - `src\` root directory of the sample website
+    - `exampleWeb\` contains the sample website
+      - `index.html` the sampel web page used in the prototype test cases
+
+## 5. Running Code Gen
+
+
