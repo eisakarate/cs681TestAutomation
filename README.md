@@ -32,7 +32,7 @@ Please use the command below to install PlayWright runtime files:
     - `characterizationSet.json` FSM for System Specfication
     - `characterizationSetTestOutput.json` Test FSM
   - `Test.Framework` contains the prototype code for test generation and other key libraries
-    - `geneateTest.ts` contains the code-gen code to generate the test cases.
+    - `geneateTest.ts` contains the code-gen code to generate the test cases and FSM for system definition.
     - `output.d.ts` a global script
     - `prototype.tx` a library called by test cases. 
   - `test` contains test cases
@@ -46,4 +46,5 @@ Please use the command below to install PlayWright runtime files:
 
 ## 5. Running Code Gen
 
+Navigate to `Playwright\` folder then execute `$ node generateTests.ts`.  
 
